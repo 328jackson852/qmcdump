@@ -1,6 +1,6 @@
 src = src
 build_dir = build
-target = qmcdump
+target = qmcdump <input_path> [output_path]
 objects = $(build_dir)/main.o $(build_dir)/crypt.o
 cc = g++ -std=c++17 -O3
 
